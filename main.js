@@ -6,8 +6,6 @@ const messages = ["super !", "works !", "great !"];
 let div = document.querySelector('div');
 text = "";
 
-
-
 const showMessage = (e) => {
     div.textContent = "";
     const text = e.target.value;
@@ -19,7 +17,6 @@ const showMessage = (e) => {
     })  
 }
  input.addEventListener("input", showMessage);
-
 
 input.addEventListener('focus', (e) =>{
 e.target.classList.add('active');
